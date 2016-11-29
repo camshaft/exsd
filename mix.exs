@@ -12,7 +12,10 @@ defmodule EXSD.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [
+      :erlsom,
+      :logger
+    ]]
   end
 
   defp deps do
